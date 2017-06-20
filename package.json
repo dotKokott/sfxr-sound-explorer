@@ -1,0 +1,22 @@
+{
+  "name": "sfxr_sound_explorer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify public/js/main.js -o public/js/bundle.js",
+    "watch": "watchify public/js/main.js -o public/js/bundle.js --debug --verbose"
+  },
+  "author": "Christian Kokott",
+  "license": "ISC",
+  "dependencies": {
+    "dat-gui": "^0.5.0",
+    "dat.gui": "^0.6.1",
+    "express": "^4.15.2",
+    "jquery": "^3.2.1",
+    "p5": "^0.5.8",
+    "serve-index": "^1.8.0",
+    "tone": "^0.10.0",
+    "tween": "^0.9.0"
+  }
+}
