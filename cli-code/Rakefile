@@ -1,0 +1,13 @@
+desc 'Compile the project'
+task :build do
+  sh 'g++ main.cpp -o sfxr'
+end
+
+desc 'Remove created binaries'
+task :clean do
+  sh 'rm sfxr'
+end
+
+desc 'Compile the project by default'
+task :default => [:build]
+
